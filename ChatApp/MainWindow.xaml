@@ -1,0 +1,17 @@
+﻿<Window x:Class="ChatApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Data="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatApp"
+        mc:Ignorable="Data"
+        Title="Scuffed" 
+        MinWidth="800" 
+        MinHeight="600"
+        MaxHeight="600"
+        MaxWidth="800"
+        Icon="/View/Assets/scuffed-icon.png">
+    <Grid>
+        <ContentControl Content="{Binding CurrentView}" />
+    </Grid>
+</Window>

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows10.0.26100.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="View\Assets\avatar.png" />
+    <None Remove="View\Assets\no-messages.svg" />
+    <None Remove="View\Assets\scuffed-icon.png" />
+    <None Remove="View\Assets\scuffed.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\Assets\avatar.png" />
+    <Resource Include="View\Assets\no-messages.svg" />
+    <Resource Include="View\Assets\scuffed-icon.png" />
+    <Resource Include="View\Assets\scuffed.png" />
+  </ItemGroup>
+
+</Project>
